@@ -17,3 +17,51 @@ To run the spellchecker application locally, follow these steps:
 
    ```shell
    git clone <repository_url>
+
+Replace `<repository_url>` with the repository's HTTPS or SSH.
+
+2. **Set up the backend:**
+
+- Inside **Spellchecker**, navigate to the backend directory using the command:
+
+  ```
+  cd server
+  ```
+
+- Install the required Python packages by running the following command:
+
+  ```
+  pip install -r requirements.txt
+  ```
+
+- Start the Flask server with the following command:
+
+  ```
+  python app.py
+  ```
+
+3. **Set up the frontend:**
+
+- Open another terminal
+- Inside **Spellchecker**, navigate to the frontend directory using the command:
+
+  ```
+  cd client
+  ```
+
+- Install the necessary dependencies by running the following command:
+
+  ```
+  npm install
+  ```
+
+- Start the React development server with the following command:
+
+  ```
+  npm start
+  ```
+
+4. **To access the spellchecker without React:**
+
+- After **python server.py**,
+- Open your web browser and go to `http://localhost:5000/spellcheck?text=insert_text` to use the spellchecker.
