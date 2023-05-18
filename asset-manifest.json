@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spellchecker/static/css/main.5fbf8458.css",
+    "main.js": "/spellchecker/static/js/main.7287eeea.js",
+    "static/js/787.cda612ba.chunk.js": "/spellchecker/static/js/787.cda612ba.chunk.js",
+    "index.html": "/spellchecker/index.html",
+    "main.5fbf8458.css.map": "/spellchecker/static/css/main.5fbf8458.css.map",
+    "main.7287eeea.js.map": "/spellchecker/static/js/main.7287eeea.js.map",
+    "787.cda612ba.chunk.js.map": "/spellchecker/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fbf8458.css",
+    "static/js/main.7287eeea.js"
+  ]
+}
