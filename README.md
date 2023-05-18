@@ -35,7 +35,7 @@ To run the spellchecker application locally, follow these steps:
 - Start the Flask server with the following command:
 
   ```
-  python app.py
+  python server.py
   ```
 
 3. **Set up the frontend:**
@@ -62,4 +62,13 @@ To run the spellchecker application locally, follow these steps:
 4. **To access the spellchecker without React:**
 
 - After **python server.py**,
-- Open your web browser and go to `http://localhost:5000/spellcheck?text=insert_text` to use the spellchecker.
+- Open your web browser and go to:
+
+```
+http://localhost:5000/spellcheck?text=insert_text
+
+or
+
+`http://127.0.0.1:5000/spellcheck?text=insert_text 
+
+to use the spellchecker.
