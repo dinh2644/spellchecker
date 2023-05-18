@@ -65,10 +65,13 @@ To run the spellchecker application locally, follow these steps:
 - Open your web browser and go to:
 
 ```
-http://localhost:5000/spellcheck?text=insert_text
+http://localhost:5000/spellcheck?text=insert text here
+```
 
-or
+ or
 
-`http://127.0.0.1:5000/spellcheck?text=insert_text 
+```
+http://127.0.0.1:5000/spellcheck?text=insert text here
+```
 
 to use the spellchecker.
