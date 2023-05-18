@@ -16,9 +16,7 @@ To run the spellchecker application locally, follow these steps:
 1. **Clone the repository:** Clone the repository to your local machine using the following command:
 
    ```shell
-   git clone <repository_url>
-
-Replace `<repository_url>` with the repository's HTTPS or SSH.
+   git clone https://github.com/dinh2644/spellchecker.git
 
 2. **Set up the backend:**
 
