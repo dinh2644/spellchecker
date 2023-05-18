@@ -1,6 +1,6 @@
 # Spellchecker w/ Trie Data Structure
 
-This project is a spellchecker application that utilizes a Trie data structure, developed with Flask and React. The spellchecker is designed to provide accurate and efficient spelling suggestions for input text, making it a valuable tool for proofreading and enhancing the quality of written content.
+This project is a spellchecker application that utilizes a Trie data structure, developed with Flask and React. The spellchecker is designed to return back misspelled words from an input text, making it a valuable tool for proofreading and enhancing the quality of written content.
 
 ## Features
 
