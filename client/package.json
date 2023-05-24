@@ -2,8 +2,8 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://dinh2644.github.io/spellchecker",
-  "proxy": "http://localhost:5000",
+  "homepage": ".",
+  "proxy": "http://127.0.0.1:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

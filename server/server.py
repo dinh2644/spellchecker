@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from trie import Trie
 import re
 
-app = Flask(__name__)
+app = Flask(__name__,static_folder="../client/build", static_url_path="/")
 trie = Trie()
 
 
@@ -35,6 +35,10 @@ def spellcheck():
         return jsonify({'misspelled_words': misspelled_words}), 200
     else:
         return jsonify({'message': 'All words are spelled correctly!'}), 200
+    
+@app.route('/')
+def index():
+    return app.send_static_file('index.html')
 
 
 if __name__ == '__main__':
