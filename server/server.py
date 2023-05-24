@@ -35,7 +35,8 @@ def spellcheck():
         return jsonify({'misspelled_words': misspelled_words}), 200
     else:
         return jsonify({'message': 'All words are spelled correctly!'}), 200
-    
+
+# point to react static files  
 @app.route('/')
 def index():
     return app.send_static_file('index.html')
